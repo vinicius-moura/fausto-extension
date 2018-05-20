@@ -1,8 +1,8 @@
 
-window.addEventListener('load', getActualHours);
+window.addEventListener('load', getCurrentTime);
 
 //function to get actual hours
-function getActualHours() {
+function getCurrentTime() {
   var date = new Date();
   var hours = date.getHours();
   console.log(hours);
